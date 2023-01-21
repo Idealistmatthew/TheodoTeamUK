@@ -19,6 +19,9 @@ export default function Footer() {
         <Link to="matterjs" className="link">
           matterjs example
         </Link>
+        <Link to="hamster" className="link">
+          hamster
+        </Link>
       </div>
     </div>
   );

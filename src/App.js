@@ -5,6 +5,7 @@ import Home from "./pages/home";
 import Test from "./pages/test";
 import Theodo from "./pages/theodo";
 import Matterjs from "./components/molecules/matterjsExample";
+import Hamster from "./pages/hamster";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="test" element={<Test />} />
             <Route path="theodo" element={<Theodo />} />
             <Route path="matterjs" element={<Matterjs />} />
+            <Route path="hamster" element={<Hamster />} />
             <Route path="*" element={<div>404</div>} />
           </Routes>
         </div>
