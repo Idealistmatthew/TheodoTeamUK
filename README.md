@@ -4,7 +4,8 @@ This project was created with [Create React App](https://github.com/facebook/cre
 
 
 ## Setup
-- Install nvm
+
+- Install nvm, then run `npm install`
 
 ## Available Scripts
 
